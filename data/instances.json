@@ -1,0 +1,465 @@
+{
+  "updatedAt": "2026-04-24T17:34:47.065Z",
+  "count": 67,
+  "urls": [
+    "https://baresearch.org",
+    "https://copp.gg",
+    "https://etsi.me",
+    "https://failsearx.culturanerd.it",
+    "https://find.xenorio.xyz",
+    "https://grep.vim.wtf",
+    "https://kantan.cat",
+    "https://o5.gg",
+    "https://ooglester.com",
+    "https://opnxng.com",
+    "https://paulgo.io",
+    "https://priv.au",
+    "https://s.mble.dk",
+    "https://search.2b9t.xyz",
+    "https://search.abohiccups.com",
+    "https://search.anoni.net",
+    "https://search.bladerunn.in",
+    "https://search.catboy.house",
+    "https://search.charliewhiskey.net",
+    "https://search.chocolatemoo53.com",
+    "https://search.datenkrake.ch",
+    "https://search.einfachzocken.eu",
+    "https://search.ethibox.fr",
+    "https://search.femboy.ad",
+    "https://search.freestater.org",
+    "https://search.hbubli.cc",
+    "https://search.im-in.space",
+    "https://search.indst.eu",
+    "https://search.inetol.net",
+    "https://search.internetsucks.net",
+    "https://search.mdosch.de",
+    "https://search.minus27315.dev",
+    "https://search.ononoki.org",
+    "https://search.pereira.is",
+    "https://search.pi.vps.pw",
+    "https://search.rhscz.eu",
+    "https://search.rowie.at",
+    "https://search.seddens.net",
+    "https://search.serpensin.com",
+    "https://search.unredacted.org",
+    "https://search.url4irl.com",
+    "https://search.wdpserver.com",
+    "https://search.zina.dev",
+    "https://searx.ankha.ac",
+    "https://searx.dresden.network",
+    "https://searx.mbuf.net",
+    "https://searx.namejeff.xyz",
+    "https://searx.oloke.xyz",
+    "https://searx.ox2.fr",
+    "https://searx.party",
+    "https://searx.perennialte.ch",
+    "https://searx.redgarden.cv",
+    "https://searx.rhscz.eu",
+    "https://searx.ro",
+    "https://searx.sev.monster",
+    "https://searx.tiekoetter.com",
+    "https://searx.tsmdt.de",
+    "https://searx.tuxcloud.net",
+    "https://searxng.canine.tools",
+    "https://searxng.deggo.fyi",
+    "https://searxng.gdebest.net",
+    "https://searxng.shreven.org",
+    "https://searxng.site",
+    "https://searxng.website",
+    "https://seek.fyi",
+    "https://sx.catgirl.cloud",
+    "https://www.gruble.de"
+  ],
+  "stats": {
+    "https://baresearch.org": {
+      "emaSuccessRate": 0.38313,
+      "emaLatencyMs": 2968.1,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://copp.gg": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://etsi.me": {
+      "emaSuccessRate": 0.38599844516129034,
+      "emaLatencyMs": 2898.2200000000003,
+      "successCount": 2,
+      "failureCount": 4
+    },
+    "https://failsearx.culturanerd.it": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://find.xenorio.xyz": {
+      "emaSuccessRate": 0.37017818100000005,
+      "emaLatencyMs": 3117.8450000000003,
+      "successCount": 3,
+      "failureCount": 5
+    },
+    "https://grep.vim.wtf": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://kantan.cat": {
+      "emaSuccessRate": 0.4617000000000001,
+      "emaLatencyMs": 3974.94,
+      "successCount": 2,
+      "failureCount": 2
+    },
+    "https://o5.gg": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://ooglester.com": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://opnxng.com": {
+      "emaSuccessRate": 0.41351400000000005,
+      "emaLatencyMs": 3117.6,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://paulgo.io": {
+      "emaSuccessRate": 0.515674781160206,
+      "emaLatencyMs": 4662.0411,
+      "successCount": 4,
+      "failureCount": 2
+    },
+    "https://priv.au": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://s.mble.dk": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.2b9t.xyz": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.abohiccups.com": {
+      "emaSuccessRate": 0.46812375000000006,
+      "emaLatencyMs": 3614.6200000000003,
+      "successCount": 2,
+      "failureCount": 2
+    },
+    "https://search.anoni.net": {
+      "emaSuccessRate": 0.41805000000000003,
+      "emaLatencyMs": 3547.7,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://search.bladerunn.in": {
+      "emaSuccessRate": 0.4581666666666667,
+      "emaLatencyMs": 3248.2,
+      "successCount": 1,
+      "failureCount": 2
+    },
+    "https://search.catboy.house": {
+      "emaSuccessRate": 0.40905,
+      "emaLatencyMs": 3166,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://search.charliewhiskey.net": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.chocolatemoo53.com": {
+      "emaSuccessRate": 0.5,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 0
+    },
+    "https://search.datenkrake.ch": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.einfachzocken.eu": {
+      "emaSuccessRate": 0.5,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 0
+    },
+    "https://search.ethibox.fr": {
+      "emaSuccessRate": 0.4754889643856486,
+      "emaLatencyMs": 3580.0890000000004,
+      "successCount": 3,
+      "failureCount": 3
+    },
+    "https://search.femboy.ad": {
+      "emaSuccessRate": 0.48917539907178625,
+      "emaLatencyMs": 3925.6654226,
+      "successCount": 8,
+      "failureCount": 4
+    },
+    "https://search.freestater.org": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.hbubli.cc": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.im-in.space": {
+      "emaSuccessRate": 0.3715597894736843,
+      "emaLatencyMs": 2931.7700000000004,
+      "successCount": 2,
+      "failureCount": 4
+    },
+    "https://search.indst.eu": {
+      "emaSuccessRate": 0.6120639457142858,
+      "emaLatencyMs": 3998.7724900000007,
+      "successCount": 5,
+      "failureCount": 2
+    },
+    "https://search.inetol.net": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.internetsucks.net": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.mdosch.de": {
+      "emaSuccessRate": 0.4064051020408164,
+      "emaLatencyMs": 3175,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://search.minus27315.dev": {
+      "emaSuccessRate": 0.39364347942789973,
+      "emaLatencyMs": 3092.79,
+      "successCount": 2,
+      "failureCount": 4
+    },
+    "https://search.ononoki.org": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.pereira.is": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.pi.vps.pw": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.rhscz.eu": {
+      "emaSuccessRate": 0.4261107315789475,
+      "emaLatencyMs": 2938.2700000000004,
+      "successCount": 2,
+      "failureCount": 3
+    },
+    "https://search.rowie.at": {
+      "emaSuccessRate": 0.3962057142857143,
+      "emaLatencyMs": 3062.3,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://search.seddens.net": {
+      "emaSuccessRate": 0.4134774193548388,
+      "emaLatencyMs": 3070.3,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://search.serpensin.com": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://search.unredacted.org": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.url4irl.com": {
+      "emaSuccessRate": 0.4391464021161391,
+      "emaLatencyMs": 3793.3963000000003,
+      "successCount": 4,
+      "failureCount": 4
+    },
+    "https://search.wdpserver.com": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://search.zina.dev": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://searx.ankha.ac": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://searx.dresden.network": {
+      "emaSuccessRate": 0.4337550000000001,
+      "emaLatencyMs": 3421.4200000000005,
+      "successCount": 2,
+      "failureCount": 3
+    },
+    "https://searx.mbuf.net": {
+      "emaSuccessRate": 0.5,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 0
+    },
+    "https://searx.namejeff.xyz": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://searx.oloke.xyz": {
+      "emaSuccessRate": 0.46732354838709683,
+      "emaLatencyMs": 3957.8900000000003,
+      "successCount": 2,
+      "failureCount": 2
+    },
+    "https://searx.ox2.fr": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://searx.party": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://searx.redgarden.cv": {
+      "emaSuccessRate": 0.5184650000000001,
+      "emaLatencyMs": 3851.5450000000005,
+      "successCount": 3,
+      "failureCount": 2
+    },
+    "https://searx.rhscz.eu": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://searx.ro": {
+      "emaSuccessRate": 0.4718450904581267,
+      "emaLatencyMs": 4063.09,
+      "successCount": 2,
+      "failureCount": 2
+    },
+    "https://searx.sev.monster": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://searx.tiekoetter.com": {
+      "emaSuccessRate": 0.4135500000000001,
+      "emaLatencyMs": 2903.3,
+      "successCount": 1,
+      "failureCount": 3
+    },
+    "https://searx.tsmdt.de": {
+      "emaSuccessRate": 0.5174177364674398,
+      "emaLatencyMs": 3910.2167900000004,
+      "successCount": 5,
+      "failureCount": 3
+    },
+    "https://searx.tuxcloud.net": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://searxng.canine.tools": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://searxng.deggo.fyi": {
+      "emaSuccessRate": 0.405,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 2
+    },
+    "https://searxng.gdebest.net": {
+      "emaSuccessRate": 0.5,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 0
+    },
+    "https://searxng.shreven.org": {
+      "emaSuccessRate": 0.47736101694915267,
+      "emaLatencyMs": 3872.29,
+      "successCount": 2,
+      "failureCount": 2
+    },
+    "https://searxng.site": {
+      "emaSuccessRate": 0.4575935347826088,
+      "emaLatencyMs": 3609.8280000000004,
+      "successCount": 3,
+      "failureCount": 3
+    },
+    "https://searxng.website": {
+      "emaSuccessRate": 0.5423187752602573,
+      "emaLatencyMs": 3565.7290000000003,
+      "successCount": 3,
+      "failureCount": 2
+    },
+    "https://seek.fyi": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    },
+    "https://sx.catgirl.cloud": {
+      "emaSuccessRate": 0.36450000000000005,
+      "emaLatencyMs": 3000,
+      "successCount": 0,
+      "failureCount": 3
+    }
+  }
+}

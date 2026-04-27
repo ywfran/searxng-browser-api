@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.env
+
+# Claude project instructions and local AI configs — not part of the public repo
+.claude/
+CLAUDE.md
+QWEN.md
+
+# Auto-generated at runtime — contains live EMA scores and fetched instance URLs.
+# blocklist.json and instances_blocklist.json ARE tracked (they are static configs).
+# data/instances.json
+
+# Development scratch and runtime files
+scratch/
+logs/
+test-reforma-tributaria.txt

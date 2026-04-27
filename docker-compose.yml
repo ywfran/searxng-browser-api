@@ -1,0 +1,106 @@
+# SearXNG Browser API — Docker Compose
+#
+# Standalone:  docker compose up -d
+# Swarm:       docker stack deploy -c docker-compose.yml search-api
+
+services:
+  search-api:
+    image: searxng-browser-api:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    ports:
+      # Expose the API on the host. Comment out when using Traefik (port is
+      # declared in the Traefik label instead).
+      - "3030:3030"
+
+    environment:
+      # ── Server ────────────────────────────────────────────────
+      PORT:             "3030"
+      NODE_ENV:         "production"
+      LOG_LEVEL:        "info"
+
+      # ── Browser pool ──────────────────────────────────────────
+      # Each BrowserContext uses ~100 MB RAM.
+      # 8 contexts → ~1 GB peak RAM. Adjust to fit available memory.
+      MAX_CONTEXTS:     "8"
+
+      # ── Search orchestration ──────────────────────────────────
+      # Navigation timeout per instance per request (ms).
+      SEARCH_TIMEOUT_MS:          "12000"
+      # How long to wait for a round before launching reinforcement instances.
+      SEARCH_STAGGER_MS:          "5000"
+      # After the first result, how long to collect competing candidates (ms).
+      SEARCH_DECISION_WINDOW_MS:  "500"
+
+      # ── Instance list ──────────────────────────────────────────
+      # Hours between automatic refreshes from searx.space.
+      INSTANCE_REFRESH_INTERVAL_HOURS: "6"
+      # Minimum monthly uptime % for an instance to be included.
+      INSTANCE_MIN_UPTIME:              "80"
+
+    # Chromium uses /dev/shm for IPC. Without this flag it crashes under load.
+    shm_size: "512mb"
+
+    # Required for Chromium's namespace sandbox inside a container.
+    cap_add:
+      - SYS_ADMIN
+
+    # Persist EMA scoring state and blocklists across container restarts.
+    # Remove the volume if you want a clean slate on every restart.
+    volumes:
+      - search-api-data:/app/data
+
+    networks:
+      - search-net
+
+    # ── Swarm deploy config ────────────────────────────────────────────────────
+    # Ignored by `docker compose up`. Only active when deployed with `docker stack deploy`.
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          # Chromium idle ~200 MB + 8 contexts × ~100 MB = ~1 GB.
+          # 1.5 G gives headroom for GC spikes and queue depth.
+          memory: "1.5G"
+          cpus:   "2.0"
+        reservations:
+          memory: "400M"
+          cpus:   "0.5"
+      restart_policy:
+        condition: on-failure
+        delay:     10s
+        max_attempts: 3
+      update_config:
+        order:          stop-first
+        failure_action: rollback
+
+    # ── Traefik reverse-proxy labels ───────────────────────────────────────────
+    # Remove or ignore if you are not using Traefik.
+    # Replace search.YOURDOMAIN.com with your actual domain.
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.search-api.rule=Host(`search.YOURDOMAIN.com`)"
+      - "traefik.http.routers.search-api.entrypoints=websecure"
+      - "traefik.http.routers.search-api.tls.certresolver=letsencrypt"
+      - "traefik.http.services.search-api.loadbalancer.server.port=3030"
+
+    healthcheck:
+      test:         ["CMD-SHELL", "node -e \"fetch('http://localhost:3030/health').then(r=>r.ok?process.exit(0):process.exit(1)).catch(()=>process.exit(1))\""]
+      interval:     30s
+      timeout:      8s
+      retries:      3
+      start_period: 30s
+
+volumes:
+  search-api-data:
+    # Named volume — Docker manages the lifecycle.
+    # To inspect: docker volume inspect search-api_search-api-data
+    # To reset scores: docker volume rm search-api_search-api-data
+
+networks:
+  search-net:
+    # Change to `external: true` and set `name:` if you need to share this
+    # network with Traefik or other services in a Swarm stack.
+    driver: bridge

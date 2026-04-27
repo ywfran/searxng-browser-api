@@ -1,0 +1,102 @@
+{
+  "domains": [
+    "support.google.com",
+    "support.youtube.com",
+    "support.microsoft.com",
+    "support.apple.com",
+    "help.instagram.com",
+    "help.twitter.com",
+    "help.facebook.com",
+    "ko.wikipedia.org",
+    "zh.wikipedia.org",
+    "ja.wikipedia.org",
+
+    "music.youtube.com",
+    "play.google.com",
+    "apps.apple.com",
+
+    "accounts.google.com",
+    "mail.google.com",
+    "calendar.google.com",
+    "docs.google.com",
+    "drive.google.com",
+
+    "web.whatsapp.com",
+    "web.telegram.org"
+  ],
+  "patterns": [
+    "/customer-service",
+    "/help-center",
+    "/support/",
+    "/feed/homepage",
+    "/store/apps/",
+    "/us/app/"
+  ],
+  "categoryRules": {
+    "general": {
+      "domains": [
+        "youtube.com",
+        "twitter.com",
+        "x.com",
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "pinterest.com",
+        "linkedin.com",
+        "reddit.com",
+        "twitch.tv",
+        "vimeo.com",
+        "dailymotion.com",
+        "flickr.com",
+        "imgur.com",
+        "giphy.com"
+      ],
+      "patterns": [
+        "/watch?v=",
+        "/shorts/",
+        "/reel/",
+        "/status/",
+        "/posts/"
+      ]
+    },
+    "videos": {
+      "domains": [
+        "twitter.com",
+        "x.com",
+        "facebook.com",
+        "instagram.com",
+        "pinterest.com",
+        "flickr.com",
+        "imgur.com",
+        "giphy.com"
+      ],
+      "patterns": []
+    },
+    "images": {
+      "domains": [
+        "youtube.com",
+        "twitter.com",
+        "x.com",
+        "facebook.com",
+        "instagram.com",
+        "tiktok.com",
+        "reddit.com",
+        "twitch.tv"
+      ],
+      "patterns": [
+        "/watch?v=",
+        "/shorts/"
+      ]
+    },
+    "news": {
+      "domains": [
+        "play.google.com",
+        "apps.apple.com"
+      ],
+      "patterns": [
+        "/store/apps/",
+        "/us/app/"
+      ]
+    }
+  }
+}
