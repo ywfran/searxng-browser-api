@@ -1,5 +1,9 @@
 # SearXNG Browser API
 
+<p align="center">
+  <img src="img/searxng.png" alt="SearXNG" width="480">
+</p>
+
 A zero-cost HTTP search API that aggregates results from 60+ public [SearXNG](https://searxng.github.io/searxng/) instances using a headless Chromium browser (Playwright). It acts as a drop-in alternative to paid search APIs (Google, Bing, Serper, etc.) supporting 10 search categories, parallel instance racing, quality-based result selection, and automatic instance health management.
 
 ---
