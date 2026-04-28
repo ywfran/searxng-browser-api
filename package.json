@@ -1,7 +1,9 @@
 {
   "name": "searxng-browser-api",
   "version": "1.0.0",
-  "description": "API de busca agregada via SearXNG com browser headless + stealth",
+  "description": "Zero-cost HTTP search API aggregating results from 60+ public SearXNG instances via headless Chromium",
+  "author": "ywfran",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "build": "tsc",
